@@ -1,0 +1,132 @@
+.profile-img-container {
+	position: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-img-container .logo .profile-image {
+	/* position: absolute; */
+	margin-top: -50px;
+	height: 300px;
+	width: 300px;
+	transform: translate(-200px);
+	animation: fade-in 1s ease 1 0.5s forwards;
+}
+
+.profile-img-container .logo {
+	/* position: absolute; */
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	user-select: none;
+}
+
+.profile-img-container .logo .hover-show {
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.profile-img-container .logo .hover-show.active {
+	animation: spin 8s linear 1s infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.profile-img-container .logo .circle {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: rgb(4, 4, 44);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s ease;
+	opacity: 0;
+}
+
+.profile-img-container .logo .hover-show.active .circle {
+	opacity: 1;
+}
+
+.profile-img-container .logo .hover-show.active .circle:nth-child(1) {
+	background: url(./html.png);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	transform: translateY(-210%);
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(2) {
+	position: absolute;
+	transform: translateX(150%) translateY(-150%);
+	background: url(./css.png);
+	background-size: cover;
+	background-position: center;
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(3) {
+	position: absolute;
+	transform: translateX(210%);
+	background: url(./js.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(4) {
+	position: absolute;
+	transform: translateX(150%) translateY(150%);
+	background: url(./bootstrap.png);
+	background-size: cover;
+	background-position: center;
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(5) {
+	position: absolute;
+	transform: translateY(210%);
+	background: url(./react.png);
+	background-size: cover;
+	background-position: center;
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(6) {
+	position: absolute;
+	transform: translateX(-150%) translateY(150%);
+	background: url(./c-plus-plus.png);
+	background-size: cover;
+	background-position: center;
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(7) {
+	position: absolute;
+	transform: translateX(-210%);
+	background: url(./c-plus-plus.png);
+	background-size: cover;
+	background-position: center;
+}
+.profile-img-container .logo .hover-show.active .circle:nth-child(8) {
+	position: absolute;
+	transform: translateX(-150%) translateY(-150%);
+	background: url(./c-plus-plus.png);
+	background-size: cover;
+	background-position: center;
+}
+
+@keyframes fade-in {
+	to {
+		transform: translate(0);
+		opacity: 1;
+	}
+}

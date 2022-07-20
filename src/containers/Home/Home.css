@@ -1,114 +1,110 @@
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 15%;
-  margin: 2rem 0 auto;
+@import "../../index.css";
+
+.home {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 20%;
+	width: 100%;
+	height: 100vh;
 }
 
-.main > * {
-  flex: 1;
-  margin-bottom: 30px;
+.home > * {
+	flex: 1;
+	margin-bottom: 130px;
 }
 
 .greeting-intro-all {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  color: #fffffe;
-  text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	color: #fffffe;
+	text-align: left;
 }
 
 .greeting-header {
-  margin-bottom: 0.75em;
-  font-size: 2.75rem;
+	margin-bottom: 0.75em;
+	font-size: var(--heading-fontsize);
+	font-family: "Caveat", cursive;
 }
 
 .greeting-name {
-  color: #eebbc3;
+	color: #eebbc3;
 }
 
 .greeting-job-intro {
-  font-size: 2.75rem;
+	font-size: var(--subheading-fontsize);
+	font-family: "Caveat", cursive;
 }
 
 .greeting-job-item-1 {
-  margin-right: 0.2em;
+	margin-right: 0.2em;
 }
 
 .button-greeting {
-  display: flex;
-  margin-top: 20px;
+	display: flex;
+	margin-top: 20px;
+}
+
+.greeting-img {
+	display: flex;
 }
 
 .greeting-img > img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	min-width: 264px;
+	min-height: 256px;
 }
 
 .wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
+	font-size: var(--heading-fontsize);
+	animation-duration: 1.8s;
+	animation-iteration-count: infinite;
+	animation-name: wave;
+	display: inline-block;
+	transform-origin: 70% 70%;
 }
 
-  @keyframes wave {
-    0% {
-      transform: rotate(0deg);
-    }
-    10% {
-      transform: rotate(-10deg);
-    }
-    20% {
-      transform: rotate(12deg);
-    }
-    30% {
-      transform: rotate(-10deg);
-    }
-    40% {
-      transform: rotate(9deg);
-    }
-    50% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-
-  /* Media Query */
-@media (max-width: 1380px) {
-  .greeting-intro-all > * {
-    font-size: 1.75rem!important;
-  }
-}
-@media (max-width: 768px) {
-  .button-greeting {
-    justify-content: space-around;
-  }
-
-  .greeting-intro-all > * {
-    text-align: center;
-    font-size: 1.5rem!important;
-  }
-
-  .greeting-job-item-1 {
-    display: none;
-  }
-
-  .main {
-    display: block;
-  }
-  /* .greeting-img > img {
-      height: 256px;
-      max-width: 450px;
-  } */
+@keyframes wave {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(-10deg);
+	}
+	20% {
+		transform: rotate(12deg);
+	}
+	30% {
+		transform: rotate(-10deg);
+	}
+	40% {
+		transform: rotate(9deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
 }
 
-@media (max-width: 320px) {
-  .greeting-intro-all > * {
-    text-align: center;
-    font-size: 1rem!important;
-  }
+/* Media Query */
+@media (max-width: 1124px) {
+	.home {
+		align-content: center;
+	}
+
+	.greeting-intro-all {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.greeting-job-item-1 {
+		display: none;
+	}
+
+	.button-greeting {
+		justify-content: space-around;
+	}
 }

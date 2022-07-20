@@ -1,26 +1,30 @@
 import React from "react";
-import TypeWriterEffect from 'react-typewriter-effect';
+import TypeIt from "typeit-react";
+import "../../index.css";
 
 const JobType = () => {
-    return(
-        <TypeWriterEffect
-        textStyle={{
-          // textAlign: 'left',
-          color: '#eebbc3',
-          // fontWeight: 500,
-          fontSize: '1em',
-        }}
-        startDelay={2000}
-        cursorColor="#eebbc3"
-        multiText={[
-          'Full-Stack Developer',
-          'Control Engineer',
-        ]}
-        multiTextDelay={3000}
-        typeSpeed={60}
-        multiTextLoop = {'true'}
-      />
-    )
-}
+	return (
+		<TypeIt
+			style={{ color: "#eebbc3", fontSize: "var(--subheading-fontsize)" }}
+			getBeforeInit={(instance) => {
+				instance
+					.type("Software Developre")
+					.pause(750)
+					.delete(2)
+					.pause(500)
+					.type("er")
+					.pause(750)
+					.delete()
+					.pause(500)
+					.type("Control Engineer")
+					.pause(750)
+					.options({ loop: true });
+
+				// Remember to return it!
+				return instance;
+			}}
+		/>
+	);
+};
 
 export default JobType;

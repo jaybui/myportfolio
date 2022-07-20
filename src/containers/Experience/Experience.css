@@ -1,0 +1,103 @@
+@import "../../index.css";
+
+h3 {
+	margin-bottom: 0.4rem;
+	font-weight: 500;
+}
+
+.experience {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 12.5%;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+}
+
+.experience > * {
+	flex: 1;
+	margin-bottom: 30px;
+}
+
+.experience-text-all {
+	display: flex;
+	color: #fffffe;
+	flex: 2;
+	height: 25%;
+	flex-direction: column;
+}
+
+.experience-text-header {
+	margin-bottom: 0.75em;
+	color: #eebbc3;
+	font-family: "Caveat", cursive;
+	font-size: var(--heading-fontsize);
+	display: inline-block;
+	text-align: center;
+	font-style: italic;
+	padding: 0 10px;
+}
+
+.download-icon > img {
+	max-height: calc(0.8 * var(--subheading-fontsize));
+	max-width: calc(0.8 * var(--subheading-fontsize));
+	margin-left: 12%;
+	position: absolute;
+	margin-top: 0.75em;
+}
+
+/* .experience-text-header::after {
+	content: "";
+	display: flex;
+	top: -5px;
+	width: 100%;
+	height: 1px;
+	margin-left: 20px;
+	background-color: white;
+} */
+
+.experience-img {
+	display: flex;
+}
+
+.experience-img > img {
+	max-width: 100%;
+	min-width: 262px;
+	min-height: 256px;
+}
+
+.experience-job-tittle {
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.company,
+.company > * {
+	color: #eebbc3;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.range {
+	font-family: "Caveat", cursive;
+	font-size: var(--body-default-fontsize);
+	margin-bottom: 2rem;
+}
+
+.experience-detail-list ul {
+	list-style: none;
+}
+
+.experience-detail-list li {
+	font-family: "Josefin Sans", sans-serif;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+.experience-detail-list li::before {
+	content: "▹";
+	position: absolute;
+	left: 0px;
+	color: #eebbc3;
+}
