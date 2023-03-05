@@ -21,9 +21,12 @@
 .project-description {
   text-align: left;
   font-size: var(--body-smaller-fontsize);
+  margin: 0 5px 0 5px;
+  overflow-wrap: break-word !important;
 }
 
-.project-buttons {
+.card > .project-buttons {
   display: flex;
   justify-content: center;
+  width: 100% !important;
 }
