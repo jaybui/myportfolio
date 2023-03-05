@@ -1,51 +1,44 @@
 .main-button {
-	background-color: #eebbc3;
-	border: solid 1px #eebbc3;
-	color: #232946;
-	font-weight: 600;
-	width: max-content;
-	padding: 13px 22px;
-	margin-right: 30px;
-	text-transform: uppercase;
-	border-radius: 6px;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	margin-top: 20px;
-	font-family: "Caveat", cursive;
-	font-size: var(--body-default-fontsize);
-	cursor: pointer;
-	transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  justify-self: center;
+  background-color: #eebbc3;
+  border: solid 1px #eebbc3;
+  color: #232946;
+  font-weight: 600;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-family: "Caveat", cursive;
+  font-size: var(--body-default-fontsize);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .main-button:hover {
-	background-color: #232946;
-	color: #eebbc3;
-	transition: all 0.3s ease 0s;
-	transform: translateY(-3px);
-}
-
-.project-button {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
-
-.project-button > .main-button {
-	margin-right: 0 !important;
+  background-color: #232946;
+  color: #eebbc3;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-3px);
 }
 
 /* Media Query */
 @media (max-width: 768px) {
-	.main-button {
-		padding: 12px 18px;
-		margin-right: 20px;
-	}
+  .main-button {
+    padding: 12px 18px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 320px) {
-	.main-button {
-		padding: 10px 16px;
-		margin-right: 10px;
-	}
+  .main-button {
+    padding: 10px 16px;
+    margin-right: 10px;
+  }
 }

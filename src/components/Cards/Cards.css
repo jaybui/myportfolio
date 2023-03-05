@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid #fff;
+  background: transparent !important;
+  box-shadow: 0 3px 5px 3px #eebbc3 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 500px;
+  transition: all 0.5s ease 0s !important;
+}
+
+.project-img {
+  width: 100%;
+  position: relative;
+  height: 200px;
+  /* object-fit: cover; */
+}
+
+.project-description {
+  text-align: left;
+  font-size: var(--body-smaller-fontsize);
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+}

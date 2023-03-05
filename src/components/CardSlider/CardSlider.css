@@ -1,0 +1,15 @@
+.slick-slide > div {
+  margin: 10px 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-dots li button:before {
+  color: #eebbc3 !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #eebbc3 !important;
+}
