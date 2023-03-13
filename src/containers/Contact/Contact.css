@@ -5,8 +5,8 @@
   flex-wrap: wrap;
   padding: 0 20%;
   flex-direction: column;
-  /* width: 100%;
-  height: 100vh; */
+  width: 100%;
+  /* height: 100vh; */
 }
 
 .contact > * {
@@ -20,8 +20,8 @@
 
 .contact-text-all {
   color: #fffffe;
-  justify-content: center;
   min-width: 332px;
+  text-align: left;
 }
 
 .contact-header {
@@ -43,8 +43,13 @@
   font-family: "Caveat", cursive;
   font-size: var(--subheading-fontsize);
   text-align: center;
-  font-style: italic;
   color: #eebbc3;
+}
+
+.contact-text-p {
+  padding: 1em 0 2em 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: var(--body-bigger-fontsize);
 }
 
 .social-links {
@@ -55,12 +60,13 @@
 }
 
 .social-links li {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -89,6 +95,7 @@ button[type="submit"] {
   border-radius: 5px;
   padding: 10px;
   font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

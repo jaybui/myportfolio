@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="logo-social-media">
             <ul class="social-links">
               <li>
-                <a href="https://github.com/">
+                <a href="https://github.com/jaybui">
                   <img
                     src={githubLogo}
                     alt="Github Logo"
@@ -45,7 +45,7 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/">
+                <a href="https://www.linkedin.com/in/jay-bui-b1413b181/">
                   <img
                     src={linkedinLogo}
                     alt="LinkedIn Logo"
@@ -55,7 +55,7 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:youremailaddress@example.com">
+                <a href="mailto:pewchew26@gmail.com">
                   <img
                     src={gmailLogo}
                     alt="Gmail Logo"

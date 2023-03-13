@@ -32,12 +32,6 @@
   padding: 0 10px;
 }
 
-.projects-text-p {
-  font-size: var(--body-default-fontsize);
-  font-family: "Josefin Sans", sans-serif;
-  line-height: 1.5;
-}
-
 /* Media Query */
 /* @media (max-width: 1124px) {
   .projects {

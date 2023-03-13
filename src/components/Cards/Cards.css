@@ -1,7 +1,7 @@
 .card {
   border: 1px solid #fff;
   background: transparent !important;
-  box-shadow: 0 3px 5px 3px #eebbc3 !important;
+  box-shadow: 0 1px 3px 1px #eebbc3 !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +11,10 @@
   transition: all 0.5s ease 0s !important;
 }
 
+.card:hover {
+  box-shadow: 0 4px 5px 4px #eebbc3 !important;
+}
+
 .project-img {
   width: 100%;
   position: relative;
@@ -18,9 +22,17 @@
   /* object-fit: cover; */
 }
 
+.project-name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: var(--body-biggest-fontsize);
+  line-height: 1.25;
+}
+
 .project-description {
   text-align: left;
   font-size: var(--body-smaller-fontsize);
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.25;
   margin: 1em 0.5em 0 0.5em;
   overflow-wrap: break-word !important;
 }
