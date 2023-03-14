@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
+import "./ContactForm.css";
 import emailjs from "@emailjs/browser";
+import Button from "../../components/Button/Button";
 
-export const ContactUs = () => {
+const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -9,10 +11,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_ltrfrbi",
+        "template_gf910vw",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "zCTaDNZHJFjgXb9vf"
       )
       .then(
         (result) => {
@@ -32,7 +34,9 @@ export const ContactUs = () => {
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <Button type="submit" text="Send" />
     </form>
   );
 };
+
+export default ContactForm;

@@ -1,0 +1,27 @@
+@import "../../index.css";
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fffffe;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #232946;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #232946;
+}

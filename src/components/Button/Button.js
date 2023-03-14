@@ -1,11 +1,24 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({ text, className, href, newTab }) => {
+const Button = ({
+  text,
+  className,
+  href,
+  newTab,
+  onClick,
+  type = "button",
+}) => {
   return (
-    <a className="main-button" href={href} target={newTab && "_blank"}>
+    <button
+      className="main-button"
+      href={href}
+      target={newTab && "_blank"}
+      onClick={onClick}
+      type={type}
+    >
       {text}
-    </a>
+    </button>
   );
 };
 
