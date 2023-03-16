@@ -2,6 +2,7 @@
   border: 1px solid #fff;
   background: transparent !important;
   box-shadow: 0 1px 3px 1px #eebbc3 !important;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +13,7 @@
 }
 
 .card:hover {
+  transform: scale(1.02);
   box-shadow: 0 4px 5px 4px #eebbc3 !important;
 }
 
@@ -40,6 +42,7 @@
 .card > .project-buttons {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .project-buttons > * {

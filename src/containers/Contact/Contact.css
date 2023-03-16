@@ -10,7 +10,6 @@
 }
 
 .contact > * {
-  flex: 1;
   margin-bottom: 30px;
 }
 
@@ -18,7 +17,15 @@
   display: flex;
 }
 
+.contact-form {
+  display: flex;
+  flex: 1;
+}
+
 .contact-text-all {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   color: #fffffe;
   min-width: 332px;
   text-align: left;
@@ -42,7 +49,7 @@
 .contact-text-subheader {
   font-family: "Caveat", cursive;
   font-size: var(--subheading-fontsize);
-  text-align: center;
+  text-align: left;
   color: #eebbc3;
 }
 

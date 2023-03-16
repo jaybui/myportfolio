@@ -1,14 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({
-  text,
-  className,
-  href,
-  newTab,
-  onClick,
-  type = "button",
-}) => {
+const Button = ({ text, href, newTab, onClick, type = "button" }) => {
   return (
     <button
       className="main-button"

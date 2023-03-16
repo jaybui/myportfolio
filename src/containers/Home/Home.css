@@ -1,110 +1,110 @@
 @import "../../index.css";
 
 .home {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 20%;
-	width: 100%;
-	height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20%;
+  width: 100%;
+  height: 100vh;
 }
 
 .home > * {
-	flex: 1;
-	margin-bottom: 130px;
+  flex: 1;
+  margin-bottom: 130px;
 }
 
 .greeting-intro-all {
-	display: flex;
-	flex-direction: column;
-	align-self: center;
-	color: #fffffe;
-	text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: #fffffe;
+  text-align: left;
 }
 
 .greeting-header {
-	margin-bottom: 0.75em;
-	font-size: var(--heading-fontsize);
-	font-family: "Caveat", cursive;
+  margin-bottom: 0.75em;
+  font-size: var(--heading-fontsize);
+  font-family: "Caveat", cursive;
 }
 
 .greeting-name {
-	color: #eebbc3;
+  color: #eebbc3;
 }
 
 .greeting-job-intro {
-	font-size: var(--subheading-fontsize);
-	font-family: "Caveat", cursive;
+  font-size: var(--subheading-fontsize);
+  font-family: "Caveat", cursive;
 }
 
 .greeting-job-item-1 {
-	margin-right: 0.2em;
+  margin-right: 0.2em;
 }
 
 .button-greeting {
-	display: flex;
-	margin-top: 20px;
+  display: flex;
+  margin-top: 40px;
 }
 
 .greeting-img {
-	display: flex;
+  display: flex;
 }
 
 .greeting-img > img {
-	max-width: 100%;
-	min-width: 264px;
-	min-height: 256px;
+  max-width: 100%;
+  min-width: 264px;
+  min-height: 256px;
 }
 
 .wave-emoji {
-	font-size: var(--heading-fontsize);
-	animation-duration: 1.8s;
-	animation-iteration-count: infinite;
-	animation-name: wave;
-	display: inline-block;
-	transform-origin: 70% 70%;
+  font-size: var(--heading-fontsize);
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
 }
 
 @keyframes wave {
-	0% {
-		transform: rotate(0deg);
-	}
-	10% {
-		transform: rotate(-10deg);
-	}
-	20% {
-		transform: rotate(12deg);
-	}
-	30% {
-		transform: rotate(-10deg);
-	}
-	40% {
-		transform: rotate(9deg);
-	}
-	50% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(0deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /* Media Query */
 @media (max-width: 1124px) {
-	.home {
-		align-content: center;
-	}
+  .home {
+    align-content: center;
+  }
 
-	.greeting-intro-all {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+  .greeting-intro-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-	.greeting-job-item-1 {
-		display: none;
-	}
+  .greeting-job-item-1 {
+    display: none;
+  }
 
-	.button-greeting {
-		justify-content: space-around;
-	}
+  .button-greeting {
+    justify-content: space-around;
+  }
 }

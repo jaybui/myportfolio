@@ -4,13 +4,18 @@ form {
   display: flex;
   flex-direction: column;
   font-family: "Josefin Sans", sans-serif;
-  max-width: 500px;
+  min-width: 15em;
   margin: 0 auto;
   padding: 20px;
   background-color: #fffffe;
   border-radius: 5px;
 }
-
+.header {
+  font-family: "Caveat", cursive;
+  font-size: var(--subheading-fontsize);
+  color: #232946;
+  margin-bottom: 20px;
+}
 label {
   font-weight: bold;
   margin-bottom: 5px;
@@ -19,9 +24,42 @@ label {
 
 input,
 textarea {
+  font-family: "Josefin Sans", sans-serif;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-shadow: 0 3px 5px #232946 !important;
   margin-bottom: 20px;
   color: #232946;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 15px;
+  font-size: var(--body-smaller-fontsize);
+  text-align: center;
+}
+
+.button-send {
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+
+.button-send > * {
+  background-color: #232946;
+  color: #fffffe;
+  border: none;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.button-send > *:hover {
+  background-color: #fffffe;
+  color: #232946;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 5px #232946 !important;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-3px);
 }
