@@ -1,46 +1,47 @@
 .tabs-list {
-	display: flex;
-	flex-direction: horizontal;
+  display: flex;
+  flex-direction: horizontal;
+  min-height: 200px;
 }
 
 .tabs {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .tabs > li {
-	font-family: "Caveat", cursive;
-	font-weight: bold;
-	font-size: var(--body-default-fontsize);
-	text-decoration: none;
-	position: relative;
-	display: flex;
-	align-items: center;
-	width: 100%;
-	padding: 10px 20px;
-	border-left: 2px solid #b8c1ec;
-	text-align: left;
-	white-space: nowrap;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: var(--body-default-fontsize);
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  border-left: 2px solid #b8c1ec;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .tabs > li:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .current {
-	background-color: #232946;
-	border-left: 3px solid #eebbc3 !important;
-	color: #eebbc3;
+  background-color: #232946;
+  border-left: 3px solid #eebbc3 !important;
+  color: #eebbc3;
 }
 
 .content {
-	flex: 2;
-	position: relative;
-	width: 100%;
-	margin-left: 30px;
-	margin-right: 30px;
-	text-align: left;
+  flex: 2;
+  position: relative;
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
 }

@@ -48,3 +48,13 @@
 .project-buttons > * {
   font-size: var(--body-smaller-fontsize);
 }
+
+@media (max-width: 768px) {
+  .project-description {
+    font-size: var(--body-default-fontsize) !important;
+  }
+
+  .project-buttons > * {
+    font-size: var(--body-default-fontsize);
+  }
+}

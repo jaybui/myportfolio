@@ -14,7 +14,7 @@ const CardSlider = ({ robots }) => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1124,
+        breakpoint: 1200,
         settings: {
           dots: true,
           slidesToShow: 2,
@@ -22,7 +22,7 @@ const CardSlider = ({ robots }) => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           dots: true,
           slidesToShow: 1,

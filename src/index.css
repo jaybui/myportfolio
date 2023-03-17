@@ -2,66 +2,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 
 html {
-	font-size: 24px;
+  font-size: 24px;
 }
 
-@media (max-width: 1900px) {
-	html {
-		font-size: 20px;
-	}
+@media (max-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
 }
 
-@media (max-width: 1382px) {
-	html {
-		font-size: 18px;
-	}
+@media (max-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+@media (max-width: 992px) and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) and (min-width: 480px) {
-	html {
-		font-size: 16px;
-	}
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) and (min-width: 320px) {
-	html {
-		font-size: 12px;
-	}
+  html {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 320px) {
-	html {
-		font-size: 10px;
-	}
+  html {
+    font-size: 12px;
+  }
 }
 
 :root {
-	--heading-fontsize: 2.675rem;
-	--subheading-fontsize: 2.25rem;
-	--body-biggest-fontsize: 1.3125rem;
-	--body-bigger-fontsize: 1.125rem;
-	--body-default-fontsize: 1rem;
-	--body-smaller-fontsize: 0.8rem;
-	--body-smallest-fontsize: 0.5rem;
+  --heading-fontsize: 2.675rem;
+  --subheading-fontsize: 2.25rem;
+  --body-biggest-fontsize: 1.3125rem;
+  --body-bigger-fontsize: 1.125rem;
+  --body-default-fontsize: 1rem;
+  --body-smaller-fontsize: 0.8rem;
+  --body-smallest-fontsize: 0.5rem;
 }
 
 body {
-	margin: 0;
-	height: 100%;
-	font-family: "Open Sans", sans-serif !important;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	/* background: rgb(35,41,70); */
-	background-image: linear-gradient(to right, #1b2138, #161b30);
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: rgb(35,41,70); */
+  background-image: linear-gradient(to right, #1b2138, #161b30);
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }

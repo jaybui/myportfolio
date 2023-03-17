@@ -26,6 +26,7 @@ h3 {
   flex: 2;
   height: 50%;
   flex-direction: column;
+  justify-content: center;
 }
 
 .experience-text-header {
@@ -101,4 +102,19 @@ h3 {
   position: absolute;
   left: 0px;
   color: #eebbc3;
+}
+
+/* Media Query */
+@media (max-width: 480px) {
+  .experience {
+    padding: 0 10%;
+  }
+  .experience-img {
+    display: none;
+  }
+
+  .download-icon > img {
+    margin-left: 6%;
+    margin-top: 1em;
+  }
 }

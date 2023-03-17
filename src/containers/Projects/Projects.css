@@ -18,7 +18,7 @@
   flex-direction: column;
   color: #fffffe;
   justify-content: center;
-  min-width: 332px;
+  min-width: 100px;
 }
 
 .projects-text-header {
@@ -33,12 +33,8 @@
 }
 
 /* Media Query */
-/* @media (max-width: 1124px) {
+@media (max-width: 480px) {
   .projects {
-    align-content: center;
+    padding: 0 10%;
   }
-  .projects-text-all {
-    margin: 20px;
-    flex-wrap: wrap;
-  }
-} */
+}
