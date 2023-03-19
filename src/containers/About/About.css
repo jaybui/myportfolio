@@ -52,7 +52,7 @@
 @media (max-width: 480px) {
   .about {
     padding: 0 10%;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .about > * {
