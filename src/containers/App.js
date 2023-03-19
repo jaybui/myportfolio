@@ -7,6 +7,8 @@ import About from "./About/About";
 import Experience from "./Experience/Experience";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Footer from "../components/Footer/Footer";
+import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
         <Experience />
         <Projects />
         <Contact />
+        <Footer />
+        <ScrollToTopButton />
       </div>
     );
   }

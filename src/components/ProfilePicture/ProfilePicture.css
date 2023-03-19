@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 5;
+  /* z-index: 5; */
   cursor: pointer;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .profile-img-container .logo .hover-show.active .circle:nth-child(1) {
-  background: url(./html.png);
+  background: url(./html5.png);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -77,14 +77,14 @@
 .profile-img-container .logo .hover-show.active .circle:nth-child(2) {
   position: absolute;
   transform: translateX(150%) translateY(-150%);
-  background: url(./css.png);
+  background: url(./css3.png);
   background-size: cover;
   background-position: center;
 }
 .profile-img-container .logo .hover-show.active .circle:nth-child(3) {
   position: absolute;
   transform: translateX(210%);
-  background: url(./js.jpg);
+  background: url(./javascript.png);
   background-size: cover;
   background-position: center;
 }
@@ -112,14 +112,14 @@
 .profile-img-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
   transform: translateX(-210%);
-  background: url(./c-plus-plus.png);
+  background: url(./nodeJS.png);
   background-size: cover;
   background-position: center;
 }
 .profile-img-container .logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
   transform: translateX(-150%) translateY(-150%);
-  background: url(./c-plus-plus.png);
+  background: url(./postgresql.png);
   background-size: cover;
   background-position: center;
 }

@@ -27,27 +27,27 @@ const Navigation = () => {
         <nav>
           <ul className={active}>
             <li className="nav-item">
-              <a className="nav-link" href="#home">
+              <a className="nav-link" href="#home" onClick={navHamburger}>
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <a className="nav-link" href="#about" onClick={navHamburger}>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#experience">
+              <a className="nav-link" href="#experience" onClick={navHamburger}>
                 Experience
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">
+              <a className="nav-link" href="#projects" onClick={navHamburger}>
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link" href="#contact" onClick={navHamburger}>
                 Contact Me
               </a>
             </li>

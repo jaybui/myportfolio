@@ -9,7 +9,7 @@ import instagramLogo from "./Instagram-Logo.svg";
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <div className="contact-header">
         <span className="logo-signs">&lt; </span>
         <h1 className="contact-text-header">Let's Chat.</h1>
@@ -20,7 +20,7 @@ const Contact = () => {
           <h2 className="contact-text-subheader">Tell me about your ideas.</h2>
           <p className="contact-text-p">We'll create something together ✌🏻</p>
           <div className="logo-social-media">
-            <ul class="social-links">
+            <ul className="social-links">
               <li>
                 <a href="https://github.com/jaybui">
                   <img

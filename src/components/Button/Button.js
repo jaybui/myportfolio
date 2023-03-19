@@ -3,7 +3,7 @@ import "./Button.css";
 
 const Button = ({ text, href, newTab, onClick, type = "button" }) => {
   return (
-    <button
+    <a
       className="main-button"
       href={href}
       target={newTab && "_blank"}
@@ -11,7 +11,7 @@ const Button = ({ text, href, newTab, onClick, type = "button" }) => {
       type={type}
     >
       {text}
-    </button>
+    </a>
   );
 };
 

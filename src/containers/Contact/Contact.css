@@ -3,7 +3,7 @@
 .contact {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 20%;
+  padding: 0 15%;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -30,6 +30,7 @@
   color: #fffffe;
   min-width: 332px;
   text-align: left;
+  margin-left: 10%;
 }
 
 .contact-header {
@@ -87,6 +88,7 @@
   .contact-text-all {
     align-items: center;
     margin-bottom: 30px;
+    margin-left: 0;
   }
 
   .social-links li {

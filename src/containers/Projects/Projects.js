@@ -4,7 +4,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <div className="projects-text-all">
         <div className="projects-header">
           <span className="logo-signs">&lt; </span>

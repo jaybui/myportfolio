@@ -50,7 +50,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form}>
       <h2 className="header">Contact Me</h2>
       <input
         type="text"
@@ -85,7 +85,7 @@ const ContactForm = () => {
       )}
 
       <div className="button-send">
-        <Button type="submit" text="Send" />
+        <Button text="Send" onClick={sendEmail} />
       </div>
     </form>
   );
