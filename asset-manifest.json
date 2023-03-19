@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.5c604808.css",
+    "main.js": "/myportfolio/static/js/main.d011c54c.js",
+    "static/js/937.4529ad92.chunk.js": "/myportfolio/static/js/937.4529ad92.chunk.js",
+    "static/js/787.e29dc422.chunk.js": "/myportfolio/static/js/787.e29dc422.chunk.js",
+    "static/media/home-main-greeting-svg.svg": "/myportfolio/static/media/home-main-greeting-svg.53b57c3d2417264fab4d7bf9c5ff7b94.svg",
+    "static/media/react.png": "/myportfolio/static/media/react.23fd0138effeef952d73.png",
+    "static/media/experience-svg.svg": "/myportfolio/static/media/experience-svg.9ddc1794bcdb66066cbe15479baadead.svg",
+    "static/media/bootstrap.png": "/myportfolio/static/media/bootstrap.323492a55f3421bf0688.png",
+    "static/media/c-plus-plus.png": "/myportfolio/static/media/c-plus-plus.bac6af85fe3ff5796f13.png",
+    "static/media/profile-svg.svg": "/myportfolio/static/media/profile-svg.43adc525740d74ff07e55b2934e60f95.svg",
+    "static/media/download-icon.svg": "/myportfolio/static/media/download-icon.dcaacfa1194768dce5927e0822d2abd1.svg",
+    "static/media/slick.svg": "/myportfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/myportfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/myportfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/myportfolio/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/Instagram-Logo.svg": "/myportfolio/static/media/Instagram-Logo.8db56ca58787bb8784196e1e987aac1b.svg",
+    "static/media/GitHub-Logo.svg": "/myportfolio/static/media/GitHub-Logo.90e2b8297a25cb17773e27da98c581cd.svg",
+    "index.html": "/myportfolio/index.html",
+    "static/media/Twitter-Logo.svg": "/myportfolio/static/media/Twitter-Logo.4a124033fdca97d5ebf578bf135bf74d.svg",
+    "static/media/Arrow_Up.svg": "/myportfolio/static/media/Arrow_Up.a9c02cf2e3e21c670141931acd5ce9d5.svg",
+    "static/media/Gmail-Logo.svg": "/myportfolio/static/media/Gmail-Logo.9ce3e055493fe3d7850ef400c60cb657.svg",
+    "static/media/LinkedIn-Logo.svg": "/myportfolio/static/media/LinkedIn-Logo.123908bb8c275b695c4d0b437bb790f1.svg",
+    "main.5c604808.css.map": "/myportfolio/static/css/main.5c604808.css.map",
+    "main.d011c54c.js.map": "/myportfolio/static/js/main.d011c54c.js.map",
+    "937.4529ad92.chunk.js.map": "/myportfolio/static/js/937.4529ad92.chunk.js.map",
+    "787.e29dc422.chunk.js.map": "/myportfolio/static/js/787.e29dc422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c604808.css",
+    "static/js/main.d011c54c.js"
+  ]
+}
