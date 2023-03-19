@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.5c604808.css",
+    "main.css": "/myportfolio/static/css/main.f05bfaa5.css",
     "main.js": "/myportfolio/static/js/main.d011c54c.js",
     "static/js/937.4529ad92.chunk.js": "/myportfolio/static/js/937.4529ad92.chunk.js",
     "static/js/787.e29dc422.chunk.js": "/myportfolio/static/js/787.e29dc422.chunk.js",
@@ -22,13 +22,13 @@
     "static/media/Arrow_Up.svg": "/myportfolio/static/media/Arrow_Up.a9c02cf2e3e21c670141931acd5ce9d5.svg",
     "static/media/Gmail-Logo.svg": "/myportfolio/static/media/Gmail-Logo.9ce3e055493fe3d7850ef400c60cb657.svg",
     "static/media/LinkedIn-Logo.svg": "/myportfolio/static/media/LinkedIn-Logo.123908bb8c275b695c4d0b437bb790f1.svg",
-    "main.5c604808.css.map": "/myportfolio/static/css/main.5c604808.css.map",
+    "main.f05bfaa5.css.map": "/myportfolio/static/css/main.f05bfaa5.css.map",
     "main.d011c54c.js.map": "/myportfolio/static/js/main.d011c54c.js.map",
     "937.4529ad92.chunk.js.map": "/myportfolio/static/js/937.4529ad92.chunk.js.map",
     "787.e29dc422.chunk.js.map": "/myportfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c604808.css",
+    "static/css/main.f05bfaa5.css",
     "static/js/main.d011c54c.js"
   ]
 }
